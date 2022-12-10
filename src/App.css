@@ -1,0 +1,9 @@
+@font-face {
+  font-family: sprite;
+  src: url(../public/fonts/FUTUXKCI.ttf);
+}
+
+*{
+  font-family: sprite;
+}
+

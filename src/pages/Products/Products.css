@@ -1,0 +1,15 @@
+.btn-product{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    width: 130px;
+    height: 40px;
+}
+
+.btn-product-big{
+    width: 35vw!important;
+}
+
+.title-products{
+    letter-spacing: 2px;
+}

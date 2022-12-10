@@ -1,0 +1,23 @@
+.card-creator{
+    width: 320px!important;
+    height: 500px;
+    margin: 20px;
+}
+
+.parag-card{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: .7rem;
+    font-weight: 500;
+}
+
+.card-creator>h2{
+    font-size: 1.4rem;
+}
+
+.a-link{
+    transition: .5s;
+}
+
+.a-link:hover{
+    color: lightgreen!important;
+}

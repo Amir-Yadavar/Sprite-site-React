@@ -1,0 +1,28 @@
+@media screen and (max-width:575px) {
+    .container-header{
+        background-image: url(../../../public/img/HomepageHero_Mobile.png);
+    }
+    .container-header>button{
+        grid-area: 3/4/4/6;
+        background-color:rgba(30, 30, 30, 0.898)black;
+        border: 2px solid white;
+    }
+
+    .container-alert-header>div{
+        margin: 5px 0;
+    }
+}
+
+@media screen and (min-width:576px){
+    .container-header{
+        background-image: url(../../../public/img/half-3-conten2.png);
+    }
+}
+
+
+@media screen and (min-width:992px){
+    .container-header{
+        background-image: url(../../../public/img/Header-banner.png);
+    }
+    
+}

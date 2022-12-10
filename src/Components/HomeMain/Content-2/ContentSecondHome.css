@@ -1,0 +1,38 @@
+.container-vakanda {
+  position: relative;
+}
+
+.button-content2 {
+  position: absolute;
+  bottom: 16%;
+  left: 40%;
+  width: 140px;
+  height: 35px;
+  border: none;
+  background-color: #009b4e;
+  color: #ffffff;
+  transition: .4s;
+}
+
+.button-content2:hover{
+  box-shadow: 0 0  10px gray;
+}
+
+@media screen and (max-width: 575px) {
+  .button-content2 {
+    bottom: 11%;
+    left: 33%;
+  }
+}
+@media screen and (min-width:768px) {
+  .button-content2 {
+    bottom: 11%;
+    left: 32%;
+  }
+}
+@media screen and (min-width:1200px) {
+  .button-content2 {
+    bottom: 11%;
+    left: 39%;
+  }
+}

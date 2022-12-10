@@ -1,0 +1,25 @@
+.btn-product{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    width: 130px;
+    height: 40px;
+    font-size: 1rem;
+    margin: auto;
+    display: block;
+}
+
+.title-product{
+    font-size: 1rem;
+}
+
+a{
+    text-decoration: none!important;
+}
+
+.box-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+}

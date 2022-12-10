@@ -1,0 +1,64 @@
+.container-footer {
+  background-color: #009b4e;
+}
+
+.footer-top > div:nth-of-type(2) > section > span {
+  color: #ffffff;
+  margin: 0 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.footer-top > div:nth-of-type(2) > section > span :hover,
+.footer-top > div:nth-of-type(3) > span:hover,
+.footer-bottom > div>span:hover {
+  color: black;
+}
+.footer-top > div:nth-of-type(3) > span {
+  color: #ffffff;
+  margin: 0 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+  display: block;
+  font-size: 1rem;
+  padding: 1px;
+  letter-spacing: 1px;
+}
+
+.footer-bottom > p {
+  font-size: 1rem;
+}
+.footer-bottom > div>span {
+  font-size: 1rem;
+  display: block;
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 8px;
+  border-bottom: 1px solid white;
+}
+
+.footer-bottom > div>span:last-child{
+    border: none;
+}
+
+@media screen and (min-width:992px) {
+    .footer-bottom > div{
+        justify-content: center;
+    }
+    
+    .footer-bottom > div>span{
+        
+        border: none;
+        border-right: 1px solid white;
+
+    }
+
+    .footer-top > div:nth-of-type(2)>h6{
+        margin-top: 50px;
+    }
+    .footer-top > div:nth-of-type(1)>img{
+        margin-top: 50px;
+    }
+}
