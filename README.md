@@ -5,7 +5,7 @@
 ### Note: The demo of this project is with netlify website and it needs some time or refresh to load completely. Thank you for your precious time.
 
 
-🔭 [Demo Project](https://sprite-react.netlify.app/)
+🔭 [Demo Project](https://sprite.amiryadavar.com/)
 
 
 ### This project is made with component function and is responsive
